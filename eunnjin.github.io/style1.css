@@ -1,8 +1,5 @@
-﻿@charset "utf-8";
-@font-face{
-    font-family: 타이포_쌍문동 스텐실;
-    src: url(타이포_쌍문동 스텐실.ttf) format(ttf);
-}
+@charset "utf-8";
+
 .top{
     padding-top:30px;
     padding-left: 350px;
