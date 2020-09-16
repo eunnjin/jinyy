@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+@font-face{
+    font-family: 타이포_쌍문동 스텐실;
+    src: local() format(ttf);
+}
 .top{
     padding-top:30px;
     padding-left: 350px;
@@ -7,6 +10,11 @@
     font-family: 타이포_쌍문동 스텐실;
     font-size: 60px;
 }
+.top a, .top a :visited{
+    text-decoration: none;
+    color: white;
+}
+
 
 header{
     position: relative;
