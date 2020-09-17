@@ -1,9 +1,5 @@
 @charset "utf-8";
-@font-face{
-    font-family: 타이포_쌍문동 스텐실;
-    src: url(Typo_SsangmunDongStencil.ttf) format(ttf),
-	 url(타이포_쌍문동 스텐실.ttf) format(ttf);
-}
+
 header{
     background-color: black;
     padding: 3% 0 1% 0;
