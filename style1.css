@@ -12,10 +12,10 @@ header{
 header a, header a :visited{
     text-decoration: none;
     color: white;
-    padding-left: 170px;
+    padding-left: 17%;
     color: white;
     font-family: 타이포_쌍문동 스텐실;
-    font-size: 300px;
+    font-size: 300%;
 }
 
 .navi{
