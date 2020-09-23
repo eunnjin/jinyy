@@ -25,10 +25,12 @@ input{
     width: 60%;
     padding: 2%;
     border-radius: 15px;
+    outline: none;
 }
 button{
     padding: 2%;
     border-radius: 15px;
+    outline: none;
 }
 
 .navi ul{
