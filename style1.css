@@ -1,9 +1,4 @@
 @charset "utf-8";
-@font-face{
-    font-family: 타이포_쌍문동 스텐실;
-    src: url(Typo_SsangmunDongStencil.ttf) format(ttf),
-	 url(타이포_쌍문동 스텐실.ttf) format(ttf);
-}
 header{
     background-color: black;
     padding: 3% 0 1% 0;
@@ -14,13 +9,26 @@ header a, header a :visited{
     color: white;
     padding-left: 17%;
     color: white;
-    font-family: 타이포_쌍문동 스텐실;
-    font-size: 300%;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 320%;
 }
 
 .navi{
     background-color: black;
     padding: 0.1%;
+}
+.search{
+    padding-left: 5%;
+    padding-top: 0.3%;
+}
+input{
+    width: 60%;
+    padding: 2%;
+    border-radius: 15px;
+}
+button{
+    padding: 2%;
+    border-radius: 15px;
 }
 
 .navi ul{
