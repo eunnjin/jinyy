@@ -35,6 +35,7 @@ button{
     padding: 2%;
     border-radius: 15px;
     outline: none;
+    background-color: white;
 }
 
 .navi ul{
