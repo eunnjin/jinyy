@@ -52,19 +52,26 @@ header a, header a :visited{
 }
 
 .content {   /* 본문 */
-    width:80%;
-    background: rgba(216, 216, 216, 0.432);
+    width:100%;
     float:left;
 }
-.text a, .text a :visited{
+.text{
     margin-top: 50px;
-    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text a{
+    border-bottom: 3px double;
+}
+.more a, .more a :visited{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.text a:hover, .text a:active {
-    border-radius: 3px;
-    background-color:  rgba(216, 216, 216, 0.432);
+.more{
+    text-align: right;
+    border-bottom: 2px solid black;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-right: 2%;
 }
 .img, .text{
     display: flex;
@@ -72,27 +79,50 @@ header a, header a :visited{
     text-align: center;
     justify-content: space-around;
 }
-
-
 .img1{
-    width: 80%;
+    width: 70%;
 }
-.img1:hover, .img1:active{
+.img1:hover, .img1:active, .img2:hover, .img2:active{
     border: 7px groove black;
     border-radius: 8px;
 }
 
-.right-side {  /* 사이드 바 */
+.img2{
+    width: 100%;
+}
+
+table{
+    margin: 5%;
+    padding-bottom: 5%;
+}
+.row{
+    border-bottom: 2px solid black;
+}
+.a{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+.b, .c{
+    font-size: medium;
+    padding-top: 1%;
+}
+.in{
+    padding: 5%;
+}
+/*
+.right-side { 
     float:right;
     width:20%;
     height:1890px;
     background: rgba(46, 45, 45, 0.158);
-}
+}*/
 
 footer{
 	clear:both;
-	padding:0.5%;
+	padding:1%;
 	background-color:black;
 	color:white;	
     text-align:center;
+    font-size: x-small;
 }
