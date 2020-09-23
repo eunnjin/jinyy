@@ -20,6 +20,9 @@ header a, header a :visited{
 .search{
     padding-left: 5%;
     padding-top: 0.3%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 input{
     width: 60%;
