@@ -3,7 +3,9 @@ header{
     background-color: black;
     padding: 3% 0 1% 0;
 }
-
+body{
+    margin: 0;
+}
 header a, header a :visited{
     text-decoration: none;
     color: white;
@@ -33,22 +35,12 @@ input{
 
 }
 button{
-    width: 80px;
+    width: 33%;
     padding: 2%;
     border-radius: 15px;
     outline: none;
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.pop{
-    font-size: 20px;
-    width:115px;
-    font-weight:bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 10%;
-    margin-top: 3%;
-    border-bottom: 3px double;
-    text-align: center;
 }
 
 .navi ul{
@@ -78,6 +70,19 @@ button{
 		color: black;
         background-color: white;
         border-radius: 15px;
+}
+.text{
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.text a{
+    border-bottom: 3px double;
 }
 
 .img{
