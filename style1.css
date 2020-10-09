@@ -122,12 +122,10 @@ table{
     font-size: x-large;
     font-weight: bold;
     font-style: italic;
-    font-family: 'Jua', sans-serif;
 }
 .b, .c{
-    font-size: large;
+    font-size: medium;
     padding-top: 1%;
-    font-family: 'Gaegu', cursive;
 }
 .b{
     font-weight: bold;
